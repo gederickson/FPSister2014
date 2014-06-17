@@ -15,4 +15,7 @@ Pembagian ip addresnya yaitu
 
 
 Dibuat Oleh
-Rickson, Angga, Desta dan Dia
+I Gede Rickson Nata Saguna (5111100049)
+Angga Eka Prasetya (5111100117)
+I Gusti Ngurah Desta Rimbawan (5111100047)
+Made Dia Agustya (5111100037)

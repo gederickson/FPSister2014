@@ -28,7 +28,7 @@ if __name__=='__main__':
     cluster = dispy.JobCluster(compute,nodes=['192.168.56.*'],ip_addr='192.168.56.101')
     
     # Data training digunakan untuk mencari centroid.
-    dataTraining = numpy.loadtxt('Data/kddcup.newtestdata_10_percent_unlabeled', dtype=int, delimiter=',')
+    dataTraining = numpy.loadtxt('Data/kddcup.newtestdata_10_percent_unlabeled2', dtype=int, delimiter=',')
     # Data testing digunakan untuk clustering dengan centroid. 
     dataTesting = numpy.loadtxt('Data/kddcup.testdata.unlabeled_10_percent2', dtype=int, delimiter=',')
     
@@ -55,7 +55,7 @@ if __name__=='__main__':
     print str('Executor').center(25), str('Job ID').center(20), str('Start Time').center(15), str('Class').center(35)
     while(indexDt != (len(dataTesting))):
         jobs = list()
-        for n in range((clientWork-1)):
+        for n in range((clientWork)):
             job = cluster.submit(dataTesting[indexDt],centroids)
             job.id = indexDt
             indexDt += 1

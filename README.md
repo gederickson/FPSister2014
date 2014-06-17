@@ -12,3 +12,7 @@ Pembagian ip addresnya yaitu
 192.168.56.103 Ubuntu 002 (Worker2)
 192.168.56.104 Ubuntu 003 (Worker3)
 192.168.56.105 Ubuntu 004 (Worker4)
+
+
+Dibuat Oleh
+Rickson, Angga, Desta dan Dia
